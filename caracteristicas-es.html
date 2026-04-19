@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Características</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <strong>Bonos App</strong>
+    <div>
+      <a href="index-es.html">Inicio</a>
+      <a href="caracteristicas-es.html">Características</a>
+      <a href="contacto-es.html">Contacto</a>
+      <a href="caracteristicas-en.html">EN</a>
+    </div>
+  </div>
+</header>
+
+<main class="container section">
+
+<h1>Características del sistema</h1>
+
+<div class="cards">
+
+  <div class="card">
+    <h3>Gestión completa de bonos</h3>
+    <p>Permite crear, editar, consultar y eliminar bonos de forma sencilla.</p>
+  </div>
+
+  <div class="card">
+    <h3>Autenticación segura</h3>
+    <p>Acceso mediante usuario y contraseña con protección JWT.</p>
+  </div>
+
+  <div class="card">
+    <h3>Control de estados</h3>
+    <p>Bonos clasificados como activo, usado o vencido.</p>
+  </div>
+
+  <div class="card">
+    <h3>Interfaz clara</h3>
+    <p>Diseño enfocado en la simplicidad y facilidad de uso.</p>
+  </div>
+
+</div>
+
+<h2>Ventajas</h2>
+
+<ul>
+  <li>Reduce errores manuales</li>
+  <li>Centraliza la información</li>
+  <li>Mejora la organización del negocio</li>
+  <li>Fácil de usar y aprender</li>
+</ul>
+
+<h2>Forma de uso</h2>
+
+<ol>
+  <li>Iniciar sesión</li>
+  <li>Consultar listado de bonos</li>
+  <li>Crear o editar bonos</li>
+  <li>Eliminar bonos si es necesario</li>
+</ol>
+<h2>Detalles técnicos</h2>
+
+<p>
+La aplicación ha sido desarrollada como un sistema fullstack, siguiendo buenas prácticas
+de desarrollo profesional y una arquitectura escalable.
+</p>
+
+<h3>Arquitectura</h3>
+
+<p>
+El sistema está compuesto por un frontend web que se comunica con una API REST desarrollada en Spring Boot,
+encargada de gestionar la lógica de negocio y el acceso a la base de datos.
+</p>
+
+<p>
+Frontend → Backend → Base de datos
+</p>
+
+<ul>
+  <li><strong>Frontend:</strong> JavaScript moderno (ES Modules) con Vite</li>
+  <li><strong>Backend:</strong> Java 21 con Spring Boot</li>
+  <li><strong>Base de datos:</strong> PostgreSQL</li>
+</ul>
+
+<h3>Seguridad</h3>
+
+<p>
+La aplicación implementa un sistema de autenticación basado en JWT (JSON Web Tokens),
+garantizando el acceso seguro a los recursos protegidos.
+</p>
+
+<ul>
+  <li>Inicio de sesión con usuario y contraseña</li>
+  <li>Generación de token JWT</li>
+  <li>Protección de endpoints</li>
+</ul>
+
+<h3>Buenas prácticas implementadas</h3>
+
+<ul>
+  <li>Arquitectura en capas: Controller → Service → Repository</li>
+  <li>Validación de datos en backend y frontend</li>
+  <li>Manejo centralizado de errores</li>
+  <li>Separación clara de responsabilidades</li>
+</ul>
+
+<h3>Despliegue</h3>
+
+<p>
+La aplicación está preparada para su despliegue mediante Docker, lo que permite ejecutar
+todo el sistema con un solo comando en cualquier entorno compatible.
+</p>
+
+</main>
+
+<footer>
+  <div class="container">
+    Proyecto académico - Bonos App
+  </div>
+</footer>
+
+</body>
+</html>
